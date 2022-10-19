@@ -1,0 +1,385 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Link styling */
+ 
+a {
+    text-decoration: none;
+}
+
+/* Home page styling*/
+
+.IntroductionText{
+    font-size: 3em;
+    padding-left: 2.5em;
+}
+
+#ImageCaption {
+    padding-left: 15.7em;
+    font-size: 1em;
+    max-width: 50em;
+    text-align: right;
+}
+
+
+.IntroductionText, #ImageCaption, .AboutMeText, .AboutMeTitle {
+    color: rgb(0, 0, 0);
+}
+
+a:active, .NavigationText {
+    color:white;
+  }
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.AboutMe {
+    font-size: 1.5em;
+    padding-left: 5em;
+    margin-top: -14em;
+    max-width: 25em;
+    text-align: left;
+}
+
+/* Experience page styling */
+
+.Experience1Title, .Experience2Title{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.Experience1, .Experience2{
+    max-width: 50em;
+    margin-bottom: 6em;
+    text-align: center;
+}
+
+.Experience1Subheading, .Experience2Subheading {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1.25em;
+}
+
+.ExperienceText{
+    font-size: 1.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 35em;
+    margin-left: 4em;
+}
+
+/* Education page styling */
+
+.Educuation1Title {
+    padding-left: 14em;
+    font-size: 1.5em;
+}
+
+.Educuation2Title {
+    padding-bottom: 0.1em;
+    padding-left: 12em;
+    font-size: 1.5em;
+}
+
+.Education2Subheading {
+    padding-bottom: 0.1em;
+    padding-right: 28.5em;
+    padding-top: 0.1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Education1Subheading {
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Education1Title, .Education1Subheading, .EducationText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50em;
+}
+
+.EducationText, .ModuleList, .GradesList {
+    margin-left: 1.3em;
+}
+
+.Education2 {
+    padding-top: 1em;
+}
+
+hgroup {
+    margin-bottom: 2.3em;
+    background-color: rgb(85, 84, 84);
+}
+
+/* All images styling */
+
+.ExploreImage{
+    float: right;
+
+    margin-top: -33em;
+    margin-right: 20em
+}
+
+.QMULImage {
+    float: right;
+    margin-right: 7em;
+    margin-top: -23em;
+}
+
+.GreenshawImage{
+    float: right;
+    margin-right: 3em;
+    margin-top: -7em;
+}
+.MaceImage{
+    float: right;
+    margin-top: -22em;
+    margin-right: 5em;
+}
+
+.MyImage {
+    margin-left: 50em;
+}
+
+.SoftSkillsImage {
+    float: right;
+    margin-top: -33em;
+    margin-right: -25em;
+}
+
+.JavaImage {
+    float: right;
+    margin-top: -16em;
+    margin-right: 23em;
+}
+
+.LinkedIn {
+    margin-left: 30em;
+    margin-top: 11em;
+}
+
+.Outlook {
+    margin-left: 5em;
+}
+
+.Code1 {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.Webpage {
+    margin-left: 6.25em;
+    margin-top: 1em;
+}
+
+.Github{
+    float: right;
+    margin-top: -32em;
+}
+
+
+#Title {
+    color: whitesmoke;
+    font-size: 1.7em;
+    margin-left: 0.5em;
+    margin-right: -1.2em;
+}
+
+
+li, h1, p, .AboutMe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* Navigation bar styling */
+h1, .TopNavigationLinks {
+    display: inline-block;
+    margin-left: 1.2em;
+    font-size: 0.75em;
+}
+
+.NavigationText {
+    display: inline;
+    font-size: 1.2em;
+}
+
+
+body {
+    background-image: url(./Images/whitebgggg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+
+}
+
+/* Skills page styling */
+
+.SkillsTitle, .ProjectsTitle{
+    text-align: center;
+    font-size: 3em;
+}
+
+.TechnicalSkills, .TechnicalSkillsList, .SoftSkills, .SoftSkillsList {
+    padding-left: 5em;
+    padding-top: 1em;
+    font-size: 1.25em;
+}
+
+.TechnicalSkillsList, .SoftSkillsList{
+    margin-left: 4em;
+}
+
+/* Form Styling */
+
+form
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.LoginBox {
+    margin-left: 35em;
+    width: 20em;
+    border: 0.8em solid rgb(102, 101, 101);
+    padding: 4.5em;
+    background-color: rgb(189, 196, 191);
+    margin-top: 5em;
+}
+
+.BlogBox {
+    margin-left: 35em;
+    margin-top: 5em;
+    width: 25em;
+    border: 0.8em solid rgb(102, 101, 101);
+    padding: 5em;
+    background-color: rgb(189, 196, 191);
+}
+
+legend {
+    margin-top: -2.5em;
+    text-align: center;
+    font-size: 1.75em;
+    color:rgb(2, 86, 119);
+    font-weight: bold;
+    white-space: nowrap;
+    width: 100%;
+}
+
+input[type=email], input[type=Password], input[type=text] {
+    margin-top: 1.5em;
+    width: 30em;
+    height: 3em;
+    margin-left: -11em;
+}
+
+.LoginButton {
+    margin-top: 1.5em;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 12em;
+    margin-left: -1em;
+}
+
+.PostButton {
+    padding: 10%;
+    width: 100%;
+    margin-left: -70%;
+    margin-right: 65%;
+    margin-top: 3%
+}
+
+.ClearButton {
+    padding: 10%;
+    width: 100%;
+    margin-right: -50%;
+    margin-left: -50%;
+    margin-top: 3%;
+
+}
+
+#EnterBlogTextHere{
+    height: 8em;
+    margin-bottom: 2em;
+    vertical-align:text-top;
+    margin-left: -11em;
+    width: 30em;
+}
+
+/* Blog entries styling */
+#blogTitleTextStyle {
+    margin-left: 0.75em;
+    font-weight: bold;
+    font-size: 1.8em;
+    
+}
+
+#textContentStyle {
+    margin-left: 1.5em;
+    max-width: 77em;
+    font-size: 1.1em;
+    
+}
+
+
+#blogEntriesHr {
+    border: none;
+    height: 0.25em;
+    width: 93em;
+    background-color: rgb(99, 99, 99); 
+}
+
+#dateStyle, #timeStyle {
+    margin-left: 112em;
+    font-size: 0.8em;
+    
+}
+
+#dateStyle {
+    padding-top: -55em;
+}
+
+/* Logout Button */
+.LogoutButton {
+    margin-top: 1.5em;
+    text-align: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    width: 8em;
+}
+
+.LogoutButtonBlogEntries {
+    text-align: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    width: 8em;
+    margin-left: 105em;
+}
+
+/* Echo message */
+.echoMessage {
+    color: blue;
+    margin-left: 30em;
+}
+
+
+
+
+/* Footer styling */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    text-align: left;
+  }
